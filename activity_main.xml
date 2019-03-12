@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:text="My Love"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="32dp"
+    android:textColor="@color/textColorWhite"
+    android:fontFamily="cursive"
+    android:textSize="52sp"
+    />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/shape"
+        android:scaleType="centerInside"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_two"
+        android:layout_below="@id/image"
+        android:textColor="@color/textColorWhite"
+        android:text="I Love You Lise"
+        android:fontFamily="cursive"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_below="@id/text_two"
+        android:textAlignment="center"
+        android:id="@+id/text_poem"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/textColorWhite"
+        android:text="@string/love_poem"
+        android:fontFamily="cursive"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
