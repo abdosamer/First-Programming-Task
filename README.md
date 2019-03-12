@@ -9,4 +9,5 @@
 
  the photos with L for linear layout
 
+ you can find the apk file under apk release file
 
